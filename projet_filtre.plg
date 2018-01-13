@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: projet_filtre - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Willliam\AppData\Local\Temp\RSPF026.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/projet_filtre.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\TRAVAIL\ENSEEIHT\prog_c\Projet_Info\Projet\projet_filtre\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Willliam\AppData\Local\Temp\RSPF026.tmp" 
+Creating temporary file "C:\Users\Willliam\AppData\Local\Temp\RSPF027.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/projet_filtre.pdb" /debug /machine:I386 /out:"Debug/projet_filtre.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\Users\Willliam\AppData\Local\Temp\RSPF027.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+f:\travail\enseeiht\prog_c\projet_info\projet\projet_filtre\main.cpp(219) : warning C4101: 'k' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/projet_filtre.bsc"  .\Debug\main.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+projet_filtre.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
